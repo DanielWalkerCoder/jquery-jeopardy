@@ -1,0 +1,42 @@
+.gameBoard{
+    display: flex;
+    flex-direction: row;
+    margin: 100px;
+}
+
+.block {
+    color: yellow;
+    background-color: blue;
+    display: flex;
+    width: 200px;
+    height: 100px;
+    border: black 2px solid;
+    align-items: center;
+    justify-content: center;
+}
+
+.block:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+.generatedText1{
+    text-align: center;
+}
+
+.generatedText2{
+    text-align: center;
+}
+
+h1{
+    padding-top: 50px;
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+
+#bottom{
+    text-align: center;
+}
